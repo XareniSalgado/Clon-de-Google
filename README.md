@@ -7,10 +7,10 @@ Puedes poner en práctica tus habilidades revisando y utilizando el código a co
 ## ÍNDICE
 
 * [1. Intro](https://github.com/XareniSalgado/clon-de-google#1intro)
-* [2. Demo](#Demo)
-* [3. ¿Qué construirás?](#¿Qué-construirás?)
-* [4. Objetivos de aprendizaje](#Objetivos-de-aprendizaje)
-* [5. Requisitos](#Requisitos)
+* [2. Demo]((https://github.com/XareniSalgado/clon-de-google#2-demo))
+* [3. ¿Qué construirás?](https://github.com/XareniSalgado/clon-de-google#3-qu%C3%A9-construir%C3%A1s)
+* [4. Objetivos de aprendizaje](https://github.com/XareniSalgado/clon-de-google#4-objetivos-de-aprendizaje)
+* [5. Requisitos](https://github.com/XareniSalgado/clon-de-google/blob/main/README.md#5-requisitos)
   
 ****
 
