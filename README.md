@@ -6,7 +6,7 @@ Puedes poner en práctica tus habilidades revisando y utilizando el código a co
 
 ## ÍNDICE
 
-* [1. Intro]()
+* [1. Intro](https://github.com/XareniSalgado/Clon-de-Google#1-intro)
 * [2. Demo]()
 * [3. ¿Qué construirás?]()
 * [4. Objetivos de aprendizaje]()
