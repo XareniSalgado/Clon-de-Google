@@ -6,7 +6,7 @@ Puedes poner en práctica tus habilidades revisando y utilizando el código a co
 
 ## ÍNDICE
 
-* [1. Intro](#Intro)
+* [1. Intro](##Intro)
 * [2. Demo](#Demo)
 * [3. ¿Qué construirás?](#¿Qué-construirás?)
 * [4. Objetivos de aprendizaje](#Objetivos-de-aprendizaje)
@@ -25,7 +25,7 @@ La idea es inspirarte con esta demostración de proyecto.
 
 **¡Quizá no te quede idéntico o quizá te quede mucho mejor que este demo🤩**, utiliza tu destreza y aprendizaje para que demuestres que tu futuro es ser un(a) programador(a) web.👩🏻💻👦🏻
 
-
+!img
 
 
 ## 3. ¿Qué construirás?
