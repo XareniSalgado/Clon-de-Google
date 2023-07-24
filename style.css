@@ -1,0 +1,215 @@
+* {
+    /* background-color: blueviolet; */
+    /*Modelo de caja (espaciados)*/
+    margin: 0px;
+    padding: 0px;
+
+    /*configuraciones letras*/
+    font-size:14 px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    /*Modelo de caja (tamaños)*/
+    height: 8vh;
+}
+main {
+    /*Modelo de caja (tamaños)*/
+    height: 78vh;
+
+    /* Configuración de el contenedor padre (como se van a comportar los hijos)*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    /* height: auto; */
+    background: #f2f2f2;
+}
+
+
+header nav {
+    /* Configuración de el contenedor padre (como se van a comportar los hijos)*/
+    display: flex;
+    justify-content: flex-end;
+    padding: 6px 6px 6px 6px;
+}
+
+ul {
+    /* Configuración de el contenedor padre (como se van a comportar los hijos)*/
+    display: flex;
+
+    /*configuración visual (no hayan puntitos)*/
+    list-style: none;
+}
+
+li{
+    /*Modelo de caja (espaciados)*/
+    padding-top: 8px;
+    padding:4px;
+    font-size: 13px;
+}
+
+/*Comportamiento del link el resto del tiempo*/
+a:link {
+    text-decoration: none;
+    /*colores*/
+    color:rgba(0,0,0,.87);
+}
+
+/*Comportamiento del link cuando el link fue visitado*/
+a:visited {
+    text-decoration: none;
+    /*colores*/
+    color:rgba(0,0,0,.87);
+}
+
+/*Comportamiento del link cuando el mouse está encima*/
+a:hover {
+    text-decoration: underline;
+}
+
+#nav-right-section{
+    /*Modelo de caja (espaciados)*/
+    padding: 10px 10px;
+}
+
+#nav-left-section{
+    /*Modelo de caja (espaciados)*/
+    padding-right: 6px;
+    padding-left: 6px;
+    width: 1037.600;
+    height: 48px;
+}
+
+#footer-listas{
+    /* Configuración de el contenedor padre (como se van a comportar los hijos)*/
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0 20px;
+    max-width: 1200px;
+    color:#70757a;
+    border-top: #70757a
+}
+
+.pais {
+    /*Modelo de caja (espaciados)*/
+    padding: 15px 30px;
+    color:#70757a;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#footer-listas ul li {
+    /*Modelo de caja (espaciados)*/
+    padding: 15px;
+}
+
+#footer-listas a {
+    color:#70757a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+button {
+    /*Modelo de caja (espaciados)*/
+    padding: 0 16px;
+    margin: 11px 4px;
+    /*Modelo de caja (tamaños)*/
+    height: 36px;
+    /*Modelo de caja (borde)*/
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+
+    /*colores*/
+    background-color: #f8f9fa;
+    color: #3c4043;
+
+    /* estilo del puntero (felchita que solemos ver)*/
+    cursor: pointer;
+}
+
+button:hover{
+    /*Modelo de caja (borde)*/
+    border: 1px solid #dadce0;
+    /* Modelo de caja: sombras de la caja*/
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+
+    /*colores*/
+    background-color: #f8f9fa;
+    color: #202124;
+}
+
+#botones {
+    /*Modelo de caja (espaciados)*/
+    /* margin: 0px 0px 300px 0px; */
+    margin-bottom: 10%;
+}
+
+#seccion-buscador{
+    /*Modelo de caja (espaciados)*/
+    margin-top: 11px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 11px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 0;
+    /*Modelo de caja (tamaños)*/
+    width: 560px;
+    min-height: 44px;
+
+    /*Modelo de caja (borde)*/
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    
+    /* Configuración de el contenedor padre (como se van a comportar los hijos)*/
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 8px 0 14px ;
+}
+
+#seccion-buscador:hover{
+    /* Modelo de caja: sombras de la caja*/
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
+
+
+#seccion-buscador svg {
+    /*Modelo de caja (espaciados)*/
+    padding: 0px 8px;
+    width: 24px;
+    height: 24px;
+    margin: 9.5px 0px;
+    padding-bottom: 2px;
+}
+
+#buscador {
+    /*Modelo de caja (espaciados)*/
+    width: 85%;
+
+    /*configuración visual caja de texto (no visualizar bordes)*/
+    border: none;
+    outline: none;
+    margin: 0px 0px 8px;
+}
+
+#nav-left-section img {
+    border-radius: 50%;
+}
+
+#nav-left-section svg {
+    border-radius: 50%;
+}
+ 
+#logo-google {
+    padding-bottom: 15px;
+}
+#links {
+    padding-bottom: 12px;
+}
+
